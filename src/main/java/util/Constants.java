@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Constants {
 	
-	public static final String HOMEPAGE_USERNAME="Juan zarate";
+	public static final String HOMEPAGE_USERNAME="Paul Collings";
 	public static final String INVALID_CRED_MSG="Invalid credentials";
 	public static final String RESET_PASSWORD_PAGE_HEADER="Reset Password";
 	
