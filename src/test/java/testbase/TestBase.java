@@ -30,11 +30,11 @@ public class TestBase {
 	protected WebDriverWait wait;
 	static Properties prop;
 	
-	@Parameters(value="env")
+	
 	@BeforeTest
-	public void beforeTest(String env)
+	public void beforeTest()
 	{
-		
+		String env = System.getProperty("Env");
 		prop = PropConfig.init_properties(env);
 	}
 	

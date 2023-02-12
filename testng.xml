@@ -6,7 +6,7 @@
 <listener class-name="listener.ExtentReportListener"></listener>
 </listeners>
   <test name="chromeTest">
-  <parameter name="env" value="SIT"></parameter>
+  
     <classes>
       <class name="tests.LoginTest"></class>
       <class name="tests.HomeTest"></class>
